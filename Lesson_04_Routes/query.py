@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return f"""<h2>Query Parameters </h2
+    return f"""<h2>Query Parameters </h2>
             <ul>
                 <li> Searching: 
                     <ul> 
